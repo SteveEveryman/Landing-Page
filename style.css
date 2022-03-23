@@ -54,16 +54,17 @@ img{
 
 .desc-content{
     font-size: 18px;
-
 }
 
 .desc-container{
     display: flex;
     flex-direction: column;
+    max-width: 400px;
 }
 
 .o-desc-container{
     display: flex;
     background-color: #1f2937;
     color: aliceblue;
+    justify-content: center;
 }
