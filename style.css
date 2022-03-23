@@ -18,16 +18,24 @@ ul{
 
 button{
     max-width: 100px;
+    background-color: #3882f6;
+    color: aliceblue;
+}
+
+img{
+    height: 300px;
+    width: 400px;
 }
 
 .header{
     padding: 10px;
+    font-weight: 24px;
 }
 
 .header-container{
     display: flex;
     align-items: center;
-    background-color: #154c79;
+    background-color: #1f2937;
     flex: 1 1 auto;
     color: aliceblue;
 }
@@ -40,14 +48,22 @@ button{
 }
 
 .desc-header{
-
+    font-size: 48px;
+    font-weight: 800;
 }
 
 .desc-content{
+    font-size: 18px;
 
 }
 
 .desc-container{
     display: flex;
     flex-direction: column;
+}
+
+.o-desc-container{
+    display: flex;
+    background-color: #1f2937;
+    color: aliceblue;
 }
