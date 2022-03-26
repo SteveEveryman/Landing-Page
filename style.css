@@ -72,6 +72,8 @@ img{
 
 .image-master-container{
     display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .image-container{
@@ -84,4 +86,14 @@ img{
 .info-image{
     height: 100px;
     width: 100px;
+}
+
+.info{
+font-size: 36px;
+font-weight: 900;
+margin: 50px;
+}
+
+.subtext, .info{
+    text-align: center;
 }
