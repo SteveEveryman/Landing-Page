@@ -21,6 +21,7 @@ button{
     background-color: #3882f6;
     color: aliceblue;
     border-radius: 8px;
+    height: 30px;
 }
 
 img{
@@ -68,12 +69,13 @@ img{
     background-color: #1f2937;
     color: aliceblue;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .image-master-container{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 60px;
 }
 
 .image-container{
@@ -84,16 +86,41 @@ img{
 }
 
 .info-image{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 8px;
 }
 
 .info{
-font-size: 36px;
-font-weight: 900;
-margin: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 50px;
 }
 
 .subtext, .info{
     text-align: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.quote-author{
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quote-container{
+    background: #E5E7EB;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
