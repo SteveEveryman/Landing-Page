@@ -124,3 +124,41 @@ img{
     padding-top: 60px;
     padding-bottom: 20px;
 }
+
+.footer-container{
+    display: flex;
+    background-color: #3882f6;
+    height: 175px;
+    width: 1000px;
+    margin-top: 75px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.call-to-action{
+    font-size: 24px;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 0;
+}
+
+.cta-description{
+    color: aliceblue;
+    margin: 0;
+}
+
+.cta-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.footer-container .buttons{
+    border: 1px solid aliceblue;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
