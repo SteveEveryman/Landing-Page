@@ -20,11 +20,12 @@ button{
     max-width: 100px;
     background-color: #3882f6;
     color: aliceblue;
+    border-radius: 8px;
 }
 
 img{
-    height: 300px;
-    width: 400px;
+    height: 180px;
+    width: auto;
 }
 
 .header{
@@ -67,4 +68,20 @@ img{
     background-color: #1f2937;
     color: aliceblue;
     justify-content: center;
+}
+
+.image-master-container{
+    display: flex;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+}
+
+.info-image{
+    height: 100px;
+    width: 100px;
 }
